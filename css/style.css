@@ -1,0 +1,242 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+	text-decoration:none;
+}
+
+@media(min-width:300px){
+	.col{
+		display:flex;
+		flex-wrap:wrap;
+		height:80vh;
+		margin:1px solid red;
+		width:100%;
+	}
+
+	.col1{
+		width:100%;
+		
+	}
+	.col2{
+		width:100%;
+		
+	}
+	
+}
+
+@media(min-width:600px){
+	.col{
+		display:flex;
+	}
+
+	.col1{
+		width:100%;
+	}
+	.col2{
+		width:100%;
+	}
+	
+}
+@media(min-width:750px){
+	.col{
+		display:flex;
+	}
+
+	.col1{
+		width:50%;
+	}
+	.col2{
+		width:50%;
+	}
+	
+}
+@media(min-width:1000px){
+	.col{
+		display:flex;
+	}
+
+	.col1{
+		width:40%;
+	}
+	.col2{
+		width:60%;
+	}
+	
+}
+
+
+#log-in{
+	width:100%;
+	margin-top:40px;
+}
+
+.container{
+	width:80%;
+	margin:auto;
+}
+
+
+.col1 .col-img{
+	background-image:url("https://w0.peakpx.com/wallpaper/960/845/HD-wallpaper-nature-landscape-landscape-nature-thumbnail.jpg");
+	background-attachment:fixed;
+	background-position:center;
+	background-size:cover;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;
+	padding:125px 0;
+}
+.col-img h2{
+	font-size:40px;
+	font-weight:700;
+	color:#fff;
+	letter-spacing:0.5px;
+}
+.col-img p{
+	font-size:20px;
+	color:#ffffffbd;
+	letter-spacing:0.5px;
+	max-width:75%;
+	text-align:center;
+	margin-top:20px;
+}
+.link-see{
+	margin-top:20px;
+	color:#fff;
+	font-size:16px;
+	text-transform:uppercase;
+	position:relative;
+}
+
+.col2-content{
+	padding:10px;
+	width:100%;
+	margin:auto;
+}
+.col2 .card{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	margin-top:10px;
+}
+.close{
+	float:right;
+}
+.card h2{
+	font-size:45px;
+    color:#1a1212eb;
+    font-weight:700;
+}
+.link-btn{
+	width:100%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	margin-top:10px;
+}
+.link-btn a{
+    display:inline-flex;
+    min-width:40%;
+    border:1px solid;
+    padding:10px 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+	justify-content:center;
+}
+.link-btn a i{
+	margin-right:7px;
+	font-size:15px;
+}
+.fb-btn{
+	background:#4653e9d6;
+	transition:all .7s linear;
+}
+.fb-btn:hover{
+	background:#2d3bdb;
+}
+.tw-btn{
+	background:#2196f3a8;
+	transition:all .7s linear;
+}
+.tw-btn:hover{
+	background:#2196f3;
+}
+.card > span{
+	margin-top:20px;
+	font-size:18px;
+	position:relative;
+}
+.card > span::before{
+	content:"";
+    width:100px;
+    height:1px;
+    background:#44444440;
+    position:absolute;
+    right:15px;
+    top:50%;
+}
+.card > span::after{
+	content:"";
+    width:100px;
+    height:1px;
+    background:#44444440;
+    position:absolute;
+    left:15px;
+    top:50%;
+}
+.info{
+	margin-top:20px;
+}
+.name{
+	display:flex;
+    flex-direction:column;
+    margin-top:10px;
+}
+.name label{
+	font-size:15px;
+    margin-bottom:5px;
+	text-transform:uppercase;
+}
+.name{
+	width:80%;
+	margin:auto;
+}
+.name input{
+	padding:7px 0px;
+	margin-bottom:10px;
+}
+.u-login{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;
+}
+.u-login a{
+	margin-top:5px;
+	display:block;
+}
+.u-login .btn{
+	width:80%;
+    margin-top:20px;
+    padding:7px 0px;
+    background:#100f0feb;
+    color:#fff;
+	border:none;
+    text-transform:uppercase;
+    cursor:pointer;
+    font-size:16px;
+	transition:all 1s linear;
+}
+.u-login .btn:hover{
+    background:#100f0f;
+}
+.reg{
+	margin-top:15px;
+    text-align:center;
+	font-size:14px;
+}
